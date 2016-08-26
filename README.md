@@ -6,25 +6,34 @@ En este repositorio se encuentran ejercicios prácticos resueltos de la materia 
 + Utilizar estándares de codificación Ruby, los mismos son
 
 ### Variables de Instancia 
-    ```ruby
+
+```ruby
           @var
-     ```
+```
+
 ### Variables de Clase 
-    ```ruby
+
+```ruby
           @@var
-     ```
+```
+
 ### Variables Globales 
-    ```ruby
+
+```ruby
           @var
-     ```
+```
+
 ### Métodos 
-    ```ruby
+
+```ruby
           def to_s (m = 0)
              m*2
           end
-     ```
+```
+
 ### Clases 
-    ```ruby
+
+```ruby
           class Person
              @@no_of_dogs=0
                 def initialize(id, name)
@@ -35,4 +44,4 @@ En este repositorio se encuentran ejercicios prácticos resueltos de la materia 
                    puts "Hello! #{name}"
                 end
            end 
-     ```
+```
