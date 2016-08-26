@@ -8,40 +8,40 @@ En este repositorio se encuentran ejercicios prácticos resueltos de la materia 
 ### Variables de Instancia 
 
 ```ruby
-          @var
+@var
 ```
 
 ### Variables de Clase 
 
 ```ruby
-          @@var
+@@var
 ```
 
 ### Variables Globales 
 
 ```ruby
-          @var
+$var
 ```
 
 ### Métodos 
 
 ```ruby
-          def to_s (m = 0)
-             m*2
-          end
+def to_s (m = 0)
+    m*2
+end
 ```
 
 ### Clases 
 
 ```ruby
-          class Person
-             @@no_of_dogs=0
-                def initialize(id, name)
-                   @p_id=id
-                   @p_name=name
-                end
-                def say_hello(name='Sacha')
-                   puts "Hello! #{name}"
-                end
-           end 
+class Person
+   @@no_of_dogs=0
+   def initialize(id, name)
+        @p_id=id
+        @p_name=name
+    end
+    def say_hello(name='Sacha')
+        puts "Hello! #{name}"
+    end
+end 
 ```
