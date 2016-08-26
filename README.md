@@ -2,28 +2,28 @@
 
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby** :diamonds:
 
-+ Cada práctica tiene un :folder: para sus ejercicios
++ Cada práctica tiene un :file_folder: para sus ejercicios
 + Utilizar estándares de codificación Ruby, los mismos son: 
-   + Variables de Instancia: 
-    ```ruby
+   + ###Variables de Instancia: 
+    ```
           @var
      ```
-    + Variables de Clase: 
-    ```ruby
+   + ###Variables de Clase: 
+    ```
           @@var
      ```
-    + Variables Globales: 
-    ```ruby
+   + ###Variables Globales: 
+    ```
           @var
      ```
-    + Métodos: 
-    ```ruby
+   + ###Métodos: 
+    ```
           def to_s (m = 0)
              m*2
           end
      ```
-    + Clases: 
-    ```ruby
+   + ###Clases: 
+    ```
           class Person
              @@no_of_dogs=0
                 def initialize(id, name)
