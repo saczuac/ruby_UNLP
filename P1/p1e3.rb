@@ -1,7 +1,7 @@
 def replace_str ( string ="" )
-         string.gsub! '{', "\n do"
-         string.gsub! '}', "\n end"
-         return string
+         string.gsub('{', "\n do")
+         string.gsub('}', "\n end")
+        string
 end
 
 cadena = ""
