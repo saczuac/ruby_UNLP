@@ -1,29 +1,29 @@
-# TTPS Opción Ruby
+# TTPS Opción Ruby <hr>
 
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby** :diamonds:
 
 + Cada **práctica** tiene un :file_folder: para sus ejercicios
 + Utilizar estándares de codificación Ruby, los mismos son
 
-### Variables de Instancia 
+### Variables de Instancia  <hr>
 
 ```ruby
 @var
 ```
 
-### Variables de Clase 
+### Variables de Clase <hr>
 
 ```ruby
 @@var
 ```
 
-### Variables Globales 
+### Variables Globales <hr>
 
 ```ruby
 $var
 ```
 
-### Métodos 
+### Métodos <hr>
 
 ```ruby
 def to_s (m = 0)
@@ -31,7 +31,7 @@ def to_s (m = 0)
 end
 ```
 
-### Clases 
+### Clases <hr>
 
 ```ruby
 class Person
