@@ -3,6 +3,7 @@
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby** :diamonds:
 
 + Cada **práctica** tiene un :file_folder: para sus ejercicios
+  + (Práctica 1)[https://gitlab.com/saczuac/ruby_UNLP/tree/master/P1]
 + Utilizar estándares de codificación Ruby, los mismos son
 
 ### Variables de Instancia  <hr>
