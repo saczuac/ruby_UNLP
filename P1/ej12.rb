@@ -1,16 +1,8 @@
-def rot (string, rotate_times)
-  encrypted_string = ""
-  string.each_byte {
-     |c|
-    if (("a".."z").include?(c.chr)) || (("A".."Z").include?(c.chr))
-     c += rotate_times
-    end
-    encrypted_string += c.chr
-    }
-  encrypted_string
-end
 
-# TODO: Have to rotate into the alphabet not in the ASCII characters
+def rot (string, n)
+  alphabet = ('a'..'z').to_a
+  string.downcase.tr("a-z","#{alphabet[n]}-za-#{alphabet[n-1]}")
+end
 
 puts 'Please enter a string, and then, the number of times to rotate, the program will use the rotN encryption '
 string = gets.chomp
