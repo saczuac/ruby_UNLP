@@ -4,6 +4,7 @@ En este repositorio se encuentran ejercicios prácticos resueltos de la materia 
 <br><br>
 ## Prácticas 
 * [Práctica 1](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P1)
+* [Práctica 2](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P2) ===> In progress
 
 <br><br>
 ## Estándares de codificación **Ruby** 
