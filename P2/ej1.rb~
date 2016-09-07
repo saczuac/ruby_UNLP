@@ -1,6 +1,0 @@
-def ordenar_arreglo (arreglo)
-	arreglo.sort
-end
-
-
-ordenar_arreglo([1,2,4,6,1,2,8,2]).to_s 
