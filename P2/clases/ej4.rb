@@ -7,28 +7,35 @@ module Countable
     end
 
     def invoked? (sym)
-        puts methods_count[sym] > 0
+      methods_count[sym] > 0
+    end
+
+    def methods_count
+       @methods_count ||= Hash.new(0)
     end
 
     def invoked (sym)
-        puts methods_count[sym]
+     methods_count[sym]
     end
 
-    def count_inv
-        methods_count[sym]++
-    end
-    ## siguientes métodos son de instancia
     module ClassMethods
+
         def count_invocations_of (sym)
-            methods_count << {sym => 0}
+          alias_method :"orig_#{sym}", sym
+          define_method sym do
+            methods_count[sym] +=1
+            send :"orig_#{sym}"
+          end
         end
 
     end
+    ## siguientes métodos son de instancia
 end
 
 class Greeter
 # Incluyo el Mixin
     include Countable
+
     def hi
         puts 'Hey!'
     end
@@ -41,13 +48,13 @@ end
 
 a = Greeter.new
 b = Greeter.new
-a.invoked?(:hi)
+p a.invoked?(:hi)
 # => false
-b.invoked?(:hi)
+p b.invoked?(:hi)
 # => false
 a.hi
 # Imprime "Hey!"
-a.invoked(:hi)
+p a.invoked(:hi)
 # => 1
-b.invoked(:hi)
+p b.invoked(:hi)
 # => 0
