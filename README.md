@@ -1,10 +1,10 @@
 # TTPS Opción Ruby 
 <br>
-En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby** :diamonds: . Cada **práctica** tiene un :file_folder: para sus ejercicios
+En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby**. Cada **práctica** tiene un :file_folder: para sus ejercicios
 <br><br>
 ## Prácticas 
-* [Práctica 1](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P1)
-* [Práctica 2](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P2) ===> In progress
+* [Práctica 1](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P1) :white_check_mark:
+* [Práctica 2](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P2) :white_check_mark:
 
 <br><br>
 ## Estándares de codificación **Ruby** 
