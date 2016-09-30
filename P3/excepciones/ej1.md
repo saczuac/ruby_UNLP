@@ -65,7 +65,7 @@ raise "ouch" #=> RuntimeError: ouch
 ## NotImplementedError <br>
 
 Se lanzan cuando una funcionalidad no está implementada en la plataforma actual que se está utilizando. Por ejemplo los métodos `fsync` y `fork` podrían lanzar esta excepción si el sistema operativo subyacente o `Ruby Runtime` no soportan estas operaciones.
-
+<br><br>
 ## StopIteration <br>
 
 Es una excepción que se lanza para terminar una iteración, es cacheada por un `rescue` definido en la `Kernel#loop`
