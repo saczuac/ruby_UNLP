@@ -1,6 +1,7 @@
 # Este script lee una secuencia de no menos de 15 números desde teclado y luego imprime el resultado de la división
 # de cada número por su entero inmediato anterior.
 # Como primer paso se pide al usuario que indique la cantidad de números que ingresará.
+load 'ej7.rb'
 
 cantidad = 0
 while cantidad < 15
@@ -8,7 +9,7 @@ while cantidad < 15
  begin
      cantidad = gets.to_i
  rescue Exception
-     puts 'Debe ingresar un número válido, intente nuevamente'
+     raise NoNumericException.new, "Se debe ingresar un valor numérico"
      cantidad = 0
  end
 end
@@ -18,7 +19,7 @@ numeros = 1.upto(cantidad).map do
  begin
      numero = gets.to_i
  rescue Exception
-     puts 'Debe ingresar un número válido, intente nuevamente'
+     raise NoNumericException.new, "Se debe ingresar un valor numérico"
      retry
  end
 end
