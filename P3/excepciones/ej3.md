@@ -10,7 +10,7 @@ Se utiliza para cachear las excepciones levantadas en el bloque `begin`, pueden 
 <br><br>
 ### else <br>
 
-Se utiliza dentro de un bloque `begin` a modo de `rescue` para cachear una excepción que no fue definida explícitamente
+Si no se levantó ninguna excepción se ejecuta el bloque `else`
 <br><br>
 ### ensure <br>
 
@@ -27,7 +27,7 @@ rescue SyntaxError, NameError => boom
 rescue StandardError => bang
   print "Error running script: " + bang
 else
-  print 'Uknown error'
+  print 'No error here'
 ensure
   print 'Always print!'
 end
