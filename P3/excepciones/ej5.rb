@@ -1,9 +1,7 @@
 def opcion_1
  a = [1, nil, 3, nil, 5, nil, 7, nil, 9, nil]
  b = 3
- c = a.map do |x|
- x * b
- end
+ c = a.map {|x| x * b}
  puts c.inspect
 rescue
  0
@@ -13,11 +11,9 @@ def opcion_2
  c = begin
  a = [1, nil, 3, nil, 5, nil, 7, nil, 9, nil]
  b = 3
- a.map do |x|
- x * b
- end
+ a.map {|x| x * b}
  rescue
- 0
+   0
  end
  puts c.inspect
 end

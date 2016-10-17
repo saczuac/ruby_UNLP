@@ -1,4 +1,5 @@
 VALUE = 'global'
+
 module A
     VALUE = 'A'
     class B
@@ -14,6 +15,7 @@ module A
        VALUE
     end
 end
+
 class C
     class D
         VALUE = 'D'
@@ -30,6 +32,7 @@ class C
         VALUE
     end
 end
+
 class F < C
     VALUE = 'F'
 end

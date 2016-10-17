@@ -1,5 +1,3 @@
-# TODO: Terminarlo, declarar bien el alias_method. No funciona este ejercicio
-
 module Countable
 
     def self.included(mod)
@@ -29,7 +27,6 @@ module Countable
         end
 
     end
-    ## siguientes métodos son de instancia
 end
 
 class Greeter
