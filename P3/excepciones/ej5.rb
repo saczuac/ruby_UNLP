@@ -32,7 +32,7 @@ def opcion_4
  puts c.inspect
 end
 
-opcion_1
+opcion_2
 
 #  opcion_1 A method "def" can serve as a "begin" statement
 # opcion 2 Unlike def ... end, an begin ... end block doesn't create a new variable scope.
