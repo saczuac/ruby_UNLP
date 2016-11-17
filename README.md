@@ -6,7 +6,7 @@ En este repositorio se encuentran ejercicios prácticos resueltos de la materia 
 * [Práctica 1](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P1) :white_check_mark:
 * [Práctica 2](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P2) :white_check_mark:
 * [Práctica 3](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P3) :white_check_mark:
-* [Práctica 4](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P4) #=> In progress
+* [Práctica 4](https://gitlab.com/saczuac/ruby_UNLP/tree/master/P4) :white_check_mark:
 
 <br><br>
 ## Estándares de codificación **Ruby** 
