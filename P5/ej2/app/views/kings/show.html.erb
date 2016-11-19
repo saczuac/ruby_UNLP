@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @king.name %>
+</p>
+
+<p>
+  <strong>Kingdom:</strong>
+  <%= @king.kingdom %>
+</p>
+
+<p>
+  <strong>Date since:</strong>
+  <%= @king.date_since %>
+</p>
+
+<p>
+  <strong>Date until:</strong>
+  <%= @king.date_until %>
+</p>
+
+<%= link_to 'Edit', edit_king_path(@king) %> |
+<%= link_to 'Back', kings_path %>

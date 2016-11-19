@@ -1,0 +1,7 @@
+<%= simple_form_for @king do |f| %>
+  <%= f.input :name, label: 'King name please', error: 'King name is mandatory'%>
+  <%= f.input :kingdom %>
+  <%= f.input :date_since, as: :date %>
+  <%= f.input :date_until, as: :date %>
+  <%= f.button :submit %>
+<% end %>

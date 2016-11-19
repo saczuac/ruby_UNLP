@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Kings</h1>
+<h2><%= t(:hello) %></h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Kingdom</th>
+      <th>Date since</th>
+      <th>Date until</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @kings.each do |king| %>
+      <tr>
+        <td><%= king.name %></td>
+        <td><%= king.kingdom %></td>
+        <td><%= king.date_since %></td>
+        <td><%= king.date_until %></td>
+        <td><%= link_to 'Show', king %></td>
+        <td><%= link_to 'Edit', edit_king_path(king) %></td>
+        <td><%= link_to 'Destroy', king, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New King', new_king_path, :class => 'btn btn-success btn-lg' %>
