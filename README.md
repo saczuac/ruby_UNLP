@@ -2,13 +2,14 @@
 <br>
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby**. Cada **práctica** tiene un :file_folder: para sus ejercicios
 <br><br>
+
 ## Prácticas 
 
-+ [Práctica 1]() :white_check_mark:
-+ [Práctica 2]() :white_check_mark:
-+ [Práctica 3]() :white_check_mark:
-+ [Práctica 4]() :white_check_mark:
-+ [Práctica 5]() :white_check_mark:
++ [Práctica 1](https://github.com/saczuac/ruby_UNLP/tree/master/P1) :white_check_mark:
++ [Práctica 2](https://github.com/saczuac/ruby_UNLP/tree/master/P2) :white_check_mark:
++ [Práctica 3](https://github.com/saczuac/ruby_UNLP/tree/master/P3) :white_check_mark:
++ [Práctica 4](https://github.com/saczuac/ruby_UNLP/tree/master/P4) :white_check_mark:
++ [Práctica 5](https://github.com/saczuac/ruby_UNLP/tree/master/P5) :white_check_mark:
 
 <br><br>
 ## Estándares de codificación **Ruby** 
