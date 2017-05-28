@@ -1,6 +1,6 @@
 # TTPS Opción Ruby 
 <br>
-En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby**. Cada **práctica** tiene un :file_folder: para sus ejercicios
+En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Ruby** . Cada práctica tiene un :file_folder: para sus ejercicios
 <br><br>
 
 ## Prácticas 
